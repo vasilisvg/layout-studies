@@ -7,7 +7,7 @@ document.getElementById('blokk-button').onclick = function(){
 
 function blokkAll(){
 	if (document.body.className.indexOf('blokk') < 0) {
-		var pargs = document.querySelectorAll('p, h1'),
+		var pargs = document.querySelectorAll('.marginal-note, p, h1, h2'),
 			i = 0,
 			j = 0,
 			withSpans = '';

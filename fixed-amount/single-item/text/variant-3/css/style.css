@@ -1,0 +1,38 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+.blokk span {
+	background: #666;
+	opacity: .7;
+}
+
+article {
+	max-width: 24em;
+	margin: 0 auto;
+}
+@media (min-width: 36em) {
+	body {
+		max-width: 42em;
+		margin: 0 auto;
+	}
+	article {
+		width: 66.66666%;
+		margin: 0 0 0 33.333333%;
+	}
+	h1:first-of-type,
+	p:first-of-type {
+		margin-left: -50%;
+	}
+}
