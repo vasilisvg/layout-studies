@@ -11,7 +11,6 @@ function blokkAll(){
 			i = 0,
 			j = 0,
 			withSpans = '';
-		console.log(pargs);
 		while (i < pargs.length) {
 			j = 0;
 			pText = pargs[i].textContent;
