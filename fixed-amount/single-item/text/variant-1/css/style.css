@@ -7,3 +7,14 @@ html {
 h1, h2, h3, h4, h5 {
 	font-weight: normal;
 }
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+.blokk span {
+	background: #666;
+	opacity: .7;
+}
