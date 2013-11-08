@@ -1,0 +1,9 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
