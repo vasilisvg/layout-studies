@@ -1,0 +1,47 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p,
+h1 {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+.blokk span {
+	background: #666;
+	opacity: .7;
+}
+
+article {
+	width: 91%;
+	margin: 0 auto;
+}
+
+@media (min-width: 38.75em) {
+	article {
+		width: 68.75%;
+	}
+	p:first-of-type {
+		font-size: 107%;
+	}
+}
+
+@media (min-width: 48em) {
+	article {
+		width: 60%;
+		max-width: 44.5em;
+	}
+	p:first-of-type {
+		margin-right: -7.8%;
+	}
+	h1:first-of-type {
+		margin-right: -15%
+	}
+}
