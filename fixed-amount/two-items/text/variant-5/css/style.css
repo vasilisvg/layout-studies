@@ -1,0 +1,27 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+.blokk span {
+	background: #666;
+	opacity: .7;
+}
+article {
+	max-width: 24em;
+	margin: 0 auto;
+}
+article:first-of-type {
+	font-size: 1.125em;
+	margin-bottom: 2em;
+}
