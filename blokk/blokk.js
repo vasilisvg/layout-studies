@@ -33,6 +33,12 @@ function blokkAll(){
 	}
 }
 function borderAll() {
-	var borderStylesheet = '<link rel="stylesheet" href="/blokk/border.css">';
-	document.querySelector('head').innerHTML += borderStylesheet;
+	if (document.getElementById('borderCSS') > -1) {
+		var borderStylesheet = '<link rel="stylesheet" id="borderCSS" href="/blokk/border.css">';
+		document.querySelector('head').innerHTML += borderStylesheet;
+	}
+	else {
+		var olddiv = document.getElementById('borderCSS');
+		document.querySelector('head').removeChild(olddiv);
+	}
 }
