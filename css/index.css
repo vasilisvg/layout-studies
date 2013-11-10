@@ -1,0 +1,150 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+
+/* @group layout {{{
+================================================================= */
+
+body {
+	max-width: 24em;
+	margin: 0 auto;
+	padding: 0 1em 0 3em;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+article {
+	max-width: 24em;
+}
+section {
+	margin: 0 0 5em;
+}
+
+@media (min-width: 36em) {
+	body {
+		max-width: 36em;
+	}
+	article {
+		margin-left: 33.33333%
+	}
+	article > p,
+	article > h2 {
+		width: 112.5%;
+		margin-left: -12.5%;
+		position: relative;
+	}
+}
+
+/* @end layout
+--------------------------------------------------------------}}} */
+
+/* @group Numbering {{{
+================================================================= */
+
+body {
+	counter-reset: article;
+}
+article {
+	counter-increment: article;
+	counter-reset: sub-section;
+	position: relative;
+}
+article h2::before {
+	content: counter(article) '. ';
+	position: absolute;
+	right: 100%;
+	margin-right: .5em;
+}
+
+/* subsection */
+article > section {
+	counter-increment: sub-section;
+	counter-reset: sub-sub-section;
+}
+article > section h3::before {
+	content: counter(article) '.' counter(sub-section) '. ';
+	position: absolute;
+	right: 100%;
+	margin-right: .5em;
+}
+
+/* subsubsection */
+article > section > section {
+	counter-increment: sub-sub-section;
+	counter-reset: sub-sub-sub-section;
+}
+article > section > section h4::before {
+	content: counter(article) '.' counter(sub-section) '.' counter(sub-sub-section) '. ';
+	position: absolute;
+	right: 100%;
+	margin-right: .5em;
+}
+
+/* the items */
+article > section > section > ul {
+	padding: 0;
+	counter-reset: items;
+}
+
+article > section > section > ul > li {
+	list-style: none;
+	counter-increment: items;
+}
+
+article > section > section > ul > li > a {
+	display: block;
+	position: relative;
+}
+article > section > section > ul > li > a h5::before {
+	content: counter(article) '.' counter(sub-section) '.' counter(sub-sub-section) '.' counter(items, lower-latin) '. ';
+	position: absolute;
+	right: 100%;
+	margin-right: .5em;
+	text-decoration: underline;
+}
+
+
+
+
+/* @end Numbering
+--------------------------------------------------------------}}} */
+
+
+/* @group Typography {{{
+================================================================= */
+
+article > p {
+	font-size: 1.125em;
+}
+
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	margin-bottom: -.75em;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+article > section > section > ul > li > a {
+	text-decoration: none;
+	color: inherit;
+	transition: .3s;
+	background: #fff;
+}
+article > section > section > ul > li > a:hover {
+	color: black;
+	background: #ebebeb;
+}
+article > section > section > ul > li > a h5 {
+	text-decoration: underline;
+}
+
+/* @end Typography
+--------------------------------------------------------------}}} */
+

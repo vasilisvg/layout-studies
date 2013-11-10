@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Layout Studies — Vasilis van Gemert</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<header>
+		<h1>Layout studies</h1>
+		<p>A collection of sketches meant to study possible layouts and layout combinations on the web.</p>
+	</header>
+	<article>
+		<h2>Fixed amount of items</h2>
+		<p>We often have complete control over the exact amount of items on a page, or on a section of a page. It is interesting to research how different amounts of items react to one another. It's also interesting to research if different types of content react differently in the same situations.</p>
+		<section>
+			<h3>Single item</h3>
+			<p>There are many ways to display one single item. There are many different types of items, of course, but the way we show them can vary considerably, depending on many factors, like screen size for instance.</p>
+			<section>
+				<h4>Examples with text</h4>
+				<p>What are the possible layouts, or combinations of layouts for one single text item? A <em>text item</em> can be any text, long or short, with no other content to share the layout with. An article, for instance.</p>
+				<ul>
+					<li>
+						<a href="/fixed-amount/single-item/text/variant-1/">
+							<h5>A single, flexible column</h5>
+							<p>The most basic possible layout. The archetypical web layout of the ninetees. One flexible text item without a maximum width.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/single-item/text/variant-2/">
+							<h5>A single, flexible column with a maximum with</h5>
+							<p>A very basic layout. The fluid web layout sometimes seen in the early years of 2000. One flexible text item with a maximum width in order to keep things readable.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/single-item/text/variant-3/">
+							<h5>Flexible, single or multi-column layout with max-width</h5>
+							<p>On bigger screens, it uses a simple three column grid to make the first heading and the first paragraph stand out. This kind of layout is especially useful for longer articles. Other elements can span across all three columns as well, if needed. It's a rather classic layout, sometimes seen in books and magazines.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/single-item/text/variant-4/">
+							<h5>Flexible, single or multi-column layout with max-width</h5>
+							<p>The same as the previous example, but with an extra column for wider viewports, in which things like marginal notes can be shown.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/single-item/text/variant-5/">
+							<h5>Single, flexible column with changing percentages, with a rather large max width</h5>
+							<p>This is a simple looking one column layout. The margins to the left and right change a few times, at different viewport sizes. The width of the measure grows from 91% to 60% with a max-width of 44.5em. But there's more. An interesting thing about this layout is that the first paragraph is 7% wider that the body copy, and the heading is even wider: 15%</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/single-item/text/variant-6/">
+							<h5>Single, flexible small column with two fixed widths</h5>
+							<p>This is a rather simple single column layout. It starts out with a width of 90% on smaller screens, with a max width of 27em. It then stops for a while and collects a lot of white-space to the left and right. Once there is room enough, the width of the measure is set to 41.375em, and the font size is increased.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/single-item/text/variant-7/">
+							<h5>Flexible, single or multi-column layout with some max-widths and some parts spanning multiple columns</h5>
+							<p>This is a set of layouts that gets more complex as the viewport grows. At first everything is layed out over one single column, but as soon as the measure allows for an extra column, it is added to the left. This can be repeated.</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</section>
+		<section>
+			<h3>Two items</h3>
+			<p>There are many situations that two different items have to be displayed in relation to each other on a page, or in a section of a page. In this section, a study is made of how these situations can be layed out.</p>
+			<section>
+				<h4>Example with text</h4>
+				<p>How can two individual, but somehow related text items be layed out. There are many different answers to this question. Here are some of the options.</p>
+				<ul>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-1/">
+							<h5>One on top of the other</h5>
+							<p>This is probably the most simple way to display two items on a page. The one always on top of the other. No CSS is needed to position the elements, this is how things flow <em>naturally</em>. So simple, you might actually forget this is a valid option. </p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-2/">
+							<h5>One next to the other</h5>
+							<p>On a small screen, the one item is always on top of the other. On bigger screens, when the minimum measure allows it, the items are shown next to each other. Since two text-items will probably have different hights, we can decide things about alignment. In this version the items are vertically aligned relatively to each other's top.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-3/">
+							<h5>One next to the other with vertical-align: middle</h5>
+							<p>The same as the previous version. But in this version the items are vertically aligned relatively to each other's middle, which sometimes works nicely for items with uncontrolably long or short headings.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-4/">
+							<h5>One next to the other with vertical-align: bottom</h5>
+							<p>The same as the previous version. But in this version the items are vertically aligned relatively to each other's bottom, which sometimes works nicely.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-5/">
+							<h5>One on top of the other, the first one a bit bigger</h5>
+							<p>The first item in a list is often more important. There are different ways to emphasize this, one of them is using a larger font-size. On small screens, the first item will just have a larger font-size, on larger screens the first item will also be wider, because the width of the measure is related to the font-size</p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-6/">
+							<h5>The other on top of the one, the second one a bit bigger</h5>
+							<p>The first item in a list is often more important, but sometimes you don't want to show it as the first item. The first item should probably be bigger, but in this case not first. On small screens, the first item will just have a larger font-size, on larger screens the first item will also be wider, because the width of the measure is related to the font-size. <em>Works only in flexbox enabled browsers</em></p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-7/">
+							<h5>One on top of the other, the second one a bit bigger, with reversed order for wider viewports</h5>
+							<p>Similar to the previous version. In this version, on small screens, the first item is visually displayed as the first item. On bigger screens, it's shown as the second one. <em>Works only in flexbox enabled browsers</em></p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-8/">
+							<h5>One on top of the other, the second one a bit bigger, with reversed order dependent on aspect ratio</h5>
+							<p>Similar to the previous version. In this version, on small screens and on big screens with viewports with an aspect-ration less than 1/1, the first item (this one) is shown as the first item. On bigger screens with an aspect-ratio bigger than 1/1, it's shown as the second one. <em>Works only in flexbox enabled browsers</em></p>
+						</a>
+					</li>
+					<li>
+						<a href="/fixed-amount/two-items/text/variant-9/">
+							<h5>One on top of the other, the second one a bit bigger, with reversed order dependent on viewport height</h5>
+							<p>Similar to the previous version. In this version, on <em>lower</em> screens, the first item is shown as the first item. On <em>higher</em> viewports, it's shown as the second one. <em>Works only in flexbox enabled browsers</em></p>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</section>
+	</article>
+	<article>
+		<h2>Single, flexible column</h2>
+		<p>This is the most simple, readable version of a layout. It's a heading, with a single paragraph of text with minimal styling. The layout is fluid for smaller screens, but it has a maximum width. This works on all devices, on most browsers. The text is always easy to read.</p>
+	</article>
+	
+	<script src="/blokk/blokk.js"></script>
+</body>
+</html>
