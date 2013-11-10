@@ -1,8 +1,11 @@
-var blokkButton = '<button id="blokk-button">blokk</button>';
+var blokkButton = '<button id="blokk-button">blokk</button> <button id="border-button">border</button>';
 document.body.innerHTML += blokkButton;
 
 document.getElementById('blokk-button').onclick = function(){
 	blokkAll();
+}
+document.getElementById('border-button').onclick = function(){
+	borderAll();
 }
 
 function blokkAll(){
@@ -28,4 +31,8 @@ function blokkAll(){
 	else {
 		document.body.className = '';
 	}
+}
+function borderAll() {
+	var borderStylesheet = '<link rel="stylesheet" href="/blokk/border.css">';
+	document.querySelector('head').innerHTML += borderStylesheet;
 }
