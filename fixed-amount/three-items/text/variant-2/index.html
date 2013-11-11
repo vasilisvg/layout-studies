@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Variant 2 — Text — Two items — Layout Studies — Vasilis van Gemert</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<article>
+		<h1>One on top of the other on small screens</h1>
+		<p>This is a pretty basic way to display three items: on a small screen we stack them, on wide screens we place them next to each other. The hard part here is finding a logical breakpoint to switch from one to three columns without breaking the layout on <em>any</em> resolution.</p>
+	</article>
+	<article>
+		<h1>One to three, when to break?</h1>
+		<p>If the ideal measure is <em>between 45 and 75 characters</em> like Brinkhurst says, we have a problem. There's no way to make the step from one to three columns within this theory. Adding white-space left and right until three columns fit might clash with the rest of the items on the page.</p>
+	</article>
+	<article>
+		<h1>First idea</h1>
+		<p>This the first version of this idea. It grows until the single column is 75 characters wide. It then collects white-space until there's room for three columns of 45 characters. The amount of characters is calculated with <a href="http://nerd.vasilis.nl/code/measure-help/">whis tool</a>.</p>
+	</article>
+	
+	<script src="/blokk/blokk.js"></script>
+</body>
+</html>

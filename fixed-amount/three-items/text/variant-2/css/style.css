@@ -1,0 +1,39 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+.blokk span {
+	background: #666;
+	opacity: .7;
+}
+article {
+	max-width: 34em;
+	margin: 0 auto;
+}
+
+@media (min-width: 60.5em) {
+	body {
+		max-width: 102em;
+		margin: 0 auto;
+		padding: 0 1em;
+	}
+	article {
+		float: left;
+		width: 33%;
+		padding: 0 .5em;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+}
