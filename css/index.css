@@ -21,6 +21,9 @@ article {
 section {
 	margin: 0 0 5em;
 }
+header {
+	margin: 0 0 3em -3em;
+}
 
 @media (min-width: 36em) {
 	body {
@@ -35,6 +38,9 @@ section {
 		margin-left: -12.5%;
 		position: relative;
 	}
+	header {
+	margin: 0 0 3em;
+}
 }
 
 /* @end layout
