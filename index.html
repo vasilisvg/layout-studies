@@ -225,7 +225,8 @@
 
 		// Change the viewport
 		document.getElementById('vpk').onclick = function() {
-			document.getElementById('vp').setAttribute('content','width=1240');
+			document.documentElement.style.width = '1024px';
+			document.getElementById('vp').setAttribute('content','width=1024');
 		}
 	</script>
 
