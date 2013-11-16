@@ -1,0 +1,37 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+#explanation {
+	display: none;
+}
+#explanation:target,
+#explanation.is-active {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: hsla(0,100%,100%,.8);
+	max-width: 24em;
+	padding: 0 1em;
+}
+[href='#top'] {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+}

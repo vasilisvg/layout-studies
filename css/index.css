@@ -21,6 +21,14 @@ article {
 section {
 	margin: 0 0 5em;
 }
+article > section::after {
+	content: " ";
+	border-bottom: 1px solid #666;
+	display: block;
+	width: 50%;
+	margin-left: -12.5%;
+	margin-top: -2em;
+}
 header {
 	margin: 0 0 3em -3em;
 }
@@ -152,5 +160,22 @@ article > section > section > ul > li > a h5 {
 }
 
 /* @end Typography
+--------------------------------------------------------------}}} */
+
+
+/* @group JS Toggle {{{
+================================================================= */
+
+.js h2 ~ section,
+.js h3 ~ section,
+.js h4 ~ ul {
+	display: none;
+}
+.js .open ~ section,
+.js .open ~ ul {
+	display: block;
+}
+
+/* @end JS Toggle
 --------------------------------------------------------------}}} */
 
