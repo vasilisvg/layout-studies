@@ -27,10 +27,12 @@ article section:not(:last-of-type)::after {
 	display: block;
 	width: 50%;
 	margin-left: -12.5%;
+	padding-top: 1em;
 }
 article > section:not(:last-of-type)::after {
 	border-bottom: 3px double #666;
 	margin-top: -2em;
+	padding-top: 0;
 }
 header {
 	margin: 0 0 3em -3em;
@@ -132,14 +134,28 @@ article > section > section > ul > li > a h5::before {
 /* @group Typography {{{
 ================================================================= */
 
-article > p {
-	font-size: 1.125em;
-}
-
 
 h1, h2, h3, h4, h5 {
 	font-weight: normal;
 	margin-bottom: -.75em;
+}
+h1 {
+	font-size: 2.074em;
+	margin-bottom: -.5em;
+}
+h2 {
+	font-size: 1.728em;
+	margin-bottom: -.5em;
+}
+h3 {
+	font-size: 1.44em;
+}
+h4 {
+	font-size: 1.2em;
+}
+h5 {
+	font-size: 1em;
+	margin-bottom: -1em;
 }
 p {
 	text-align: justify;
