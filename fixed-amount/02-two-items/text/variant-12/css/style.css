@@ -1,0 +1,51 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+.blokk span {
+	background: #666;
+	opacity: .7;
+}
+body {
+	padding: 0 2em;
+	margin: 0;
+}
+article {
+	width: 81.03448%;
+	max-width: 23.5em;
+	margin: 0 auto;
+}
+article[lang='de'] {
+	width: 100%;
+	max-width: 29em;
+}
+
+@media (min-width: 48.5em) {
+	body {
+		max-width: 52.5em;
+		margin: 0 auto;
+	}
+	article {
+		width: 44.761904761904766%;
+		float: left;
+		padding: 0 1em 0 0;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	article[lang='de'] {
+		width: 55.23809523809524%;
+		padding: 0 0 0 1em;
+	}
+}
