@@ -41,3 +41,16 @@ body {
 ```
 
 So if we look at things liberally, *any text between 14em and 33em* is easy to read. These are the extremes I use in these layout studies. I'll mostly use a measure of around 24em.
+
+## Todo
+There are always things to do for this project. 
+
+### More layouts
+I want examples from live sites. So if you know a site that uses a set of layouts that's not in this project, please make an issue with a link, and I'll create a version of it (or send a pull request with a working version).
+
+### Naming schemes
+I'd like to give names to certain types of layouts/grids, so it's easier to refer to them, and explain them. I have no idea about this at all. If you have a good idea, please let me know.
+
+### Technical architecture
+Right now, I write everything by hand. I'm not sure if I need anything more dynamic than plain HTML, CSS and a bit of JavaScript, but I can imagine that a more flexible approach could be handy in the future. Ideas and discussions are more than welcome. Feel free to open an issue.
+
