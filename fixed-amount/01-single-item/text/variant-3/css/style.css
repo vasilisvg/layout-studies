@@ -18,14 +18,17 @@ p {
 	opacity: .7;
 }
 
+body {
+	padding: 0 1em;
+	margin: 0 auto;
+}
 article {
 	max-width: 24em;
 	margin: 0 auto;
 }
-@media (min-width: 36em) {
+@media (min-width: 23em) {
 	body {
 		max-width: 42em;
-		margin: 0 auto;
 	}
 	article {
 		width: 66.66666%;
