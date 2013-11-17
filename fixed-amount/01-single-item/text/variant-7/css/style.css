@@ -18,14 +18,17 @@ p {
 	opacity: .7;
 }
 
+body {
+	padding: 0 1em;
+	margin: 0 auto;
+}
 article {
 	max-width: 24em;
 	margin: 0 auto;
 }
-@media (min-width: 36em) {
+@media (min-width: 25em) {
 	body {
 		max-width: 42em;
-		margin: 0 auto;
 		padding: 0 2em;
 	}
 	article {
@@ -35,7 +38,7 @@ article {
 	h1:first-of-type,
 	p:first-of-type {
 		margin-left: -50%;
-		font-size: 1.25em;
+		font-size: 1.125em;
 	}
 	h1:first-of-type {
 		font-size: 1.5em;
