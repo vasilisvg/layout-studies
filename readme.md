@@ -19,3 +19,25 @@ body {
 	max-width: 30em;
 }
 ```
+
+But if we want to be more accurate and base our measure on the font we use or the language we work in, we might want to use a tool to calculate the ideal measure. [The International Measure Slider](http://nerd.vasilis.nl/code/measure-help/) lets you choose a font and a language and it returns the amount of characters and the amount of words per line. This tool needs updating so you can add your own text, and use other fonts. It's on Github, [feel free to contribute](https://github.com/vasilisvg/International-measure-slider).
+
+According to this measure slider the ideal measure for English text set in Georgia (this project) is something like this:
+
+```css
+/* Bringhurst measure */
+body {
+	font: 100%/1.5 georgia, serif;
+	min-width: 20em;
+	max-width: 33em;
+}
+
+/* Müller-Brockmann measure */
+body {
+	font: 100%/1.5 georgia, serif;
+	min-width: 14em;
+	max-width: 23.5em;
+}
+```
+
+So if we look at things liberally, *any text between 14em and 33em* is easy to read. These are the extremes I use in these layout studies. I'll mostly use a measure of around 24em.
