@@ -42,6 +42,9 @@ body {
 
 So if we look at things liberally, *any text between 14em and 33em* is easy to read. These are the extremes I use in these layout studies. I'll mostly use a measure of around 24em.
 
+### A note on grids
+This study is not about grids, it's just about how items can be laid out. It's up to you, if you feel the need, to align these items to a logical, or beautiful grid that fits your design.
+
 ## Todo
 There are always things to do for this project. 
 
