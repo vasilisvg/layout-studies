@@ -1,0 +1,32 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+figure {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 640px;
+	position: relative;
+}
+figure img {
+	width: 100%;
+}
+figcaption p {
+	margin-top: 0;
+}
