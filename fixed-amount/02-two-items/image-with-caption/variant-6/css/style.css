@@ -1,0 +1,43 @@
+html {
+	color: #666;
+	background: white;
+	font: 100%/1.5 georgia, serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+figure {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 640px;
+	position: relative;
+}
+figure img {
+	width: 100%;
+	display: block;
+}
+@media (min-width: 24em) {
+	[src$='.jpg'] + figcaption {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background: rgba(255,255,255,.4);
+	}
+	[src$='.jpg'] + figcaption p {
+		margin: .5em;
+		color: #fff;
+		text-shadow: 1px 1px 0 #333;
+	}
+}
