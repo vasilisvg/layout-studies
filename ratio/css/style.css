@@ -1,0 +1,110 @@
+body {
+    background: hotpink;
+    padding: 11.1111vh 11.1111% 22.2222vh;
+    text-align: center;
+    font: 100%/1.5 "Fedra Sans Screen Regular", helvetica, arial, sans-serif;
+}
+body::before {
+    content: "less than 135/256";
+    font-size: 1.5em;
+    display: block;
+    background: white;
+}
+
+@media (min-aspect-ratio: 135/256) {
+    body::before {
+        content: "min-aspect-ratio: 135/256";
+    }
+}
+@media (min-aspect-ratio: 9/16) {
+    body::before {
+        content: "min-aspect-ratio: 9/16";
+    }
+}
+@media (min-aspect-ratio: 1000/1681) {
+    body::before {
+        content: "min-aspect-ratio: 1/1.681";
+    }
+}
+@media (min-aspect-ratio: 3/5) {
+    body::before {
+        content: "min-aspect-ratio: 3/5";
+    }
+}
+@media (min-aspect-ratio: 2/3) {
+    body::before {
+        content: "min-aspect-ratio:2/3";
+    }
+}
+@media (min-aspect-ratio: 1000/1414) {
+    body::before {
+        content: "min-aspect-ratio:1/1.414";
+    }
+}
+@media (min-aspect-ratio: 3/4) {
+    body::before {
+        content: "min-aspect-ratio:3/4";
+    }
+}
+@media (min-aspect-ratio: 4/5) {
+    body::before {
+        content: "min-aspect-ratio:4/5";
+    }
+}
+@media (min-aspect-ratio: 5/6) {
+    body::before {
+        content: "min-aspect-ratio:5/6";
+    }
+}
+
+@media (min-aspect-ratio: 1/1) {
+    body::before {
+        content: "min-aspect-ratio: 1/1";
+    }
+}
+
+@media (min-aspect-ratio: 6/5) {
+    body::before {
+        content: "min-aspect-ratio:6/5";
+    }
+}
+@media (min-aspect-ratio: 5/4) {
+    body::before {
+        content: "min-aspect-ratio:5/4";
+    }
+}
+@media (min-aspect-ratio: 4/3) {
+    body::before {
+        content: "min-aspect-ratio:4/3";
+    }
+}
+@media (min-aspect-ratio: 1414/1000) {
+    body::before {
+        content: "min-aspect-ratio: 1.414/1";
+    }
+}
+@media (min-aspect-ratio: 3/2) {
+    body::before {
+        content: "min-aspect-ratio:3/2";
+    }
+}
+@media (min-aspect-ratio: 5/3) {
+    body::before {
+        content: "min-aspect-ratio: 5/3";
+    }
+}
+@media (min-aspect-ratio: 1681/1000) {
+    body::before {
+        content: "min-aspect-ratio: 1.681/1";
+    }
+}
+@media (min-aspect-ratio: 16/9) {
+    body::before {
+        content: "min-aspect-ratio: 16/9";
+    }
+}
+@media (min-aspect-ratio: 256/135) {
+    body::before {
+        content: "min-aspect-ratio: 256/135";
+    }
+}
