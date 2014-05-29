@@ -38,22 +38,22 @@ body::before {
 }
 @media (min-aspect-ratio: 1000/1414) {
     body::before {
-        content: "min-aspect-ratio:1/1.414";
+        content: "min-aspect-ratio: 1/1.414";
     }
 }
 @media (min-aspect-ratio: 3/4) {
     body::before {
-        content: "min-aspect-ratio:3/4";
+        content: "min-aspect-ratio: 3/4";
     }
 }
 @media (min-aspect-ratio: 4/5) {
     body::before {
-        content: "min-aspect-ratio:4/5";
+        content: "min-aspect-ratio: 4/5";
     }
 }
 @media (min-aspect-ratio: 5/6) {
     body::before {
-        content: "min-aspect-ratio:5/6";
+        content: "min-aspect-ratio: 5/6";
     }
 }
 
@@ -65,17 +65,17 @@ body::before {
 
 @media (min-aspect-ratio: 6/5) {
     body::before {
-        content: "min-aspect-ratio:6/5";
+        content: "min-aspect-ratio: 6/5";
     }
 }
 @media (min-aspect-ratio: 5/4) {
     body::before {
-        content: "min-aspect-ratio:5/4";
+        content: "min-aspect-ratio: 5/4";
     }
 }
 @media (min-aspect-ratio: 4/3) {
     body::before {
-        content: "min-aspect-ratio:4/3";
+        content: "min-aspect-ratio: 4/3";
     }
 }
 @media (min-aspect-ratio: 1414/1000) {
@@ -85,7 +85,7 @@ body::before {
 }
 @media (min-aspect-ratio: 3/2) {
     body::before {
-        content: "min-aspect-ratio:3/2";
+        content: "min-aspect-ratio: 3/2";
     }
 }
 @media (min-aspect-ratio: 5/3) {
