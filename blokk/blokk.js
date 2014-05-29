@@ -66,14 +66,7 @@ function borderAll() {
 	}
 }
 
-function showCaption(){
-	if ( document.querySelector('.explanation') !== null) {
-		document.querySelector('.explanation').className = 'has-explanation';
-	}
-	else {
-		document.querySelector('.has-explanation').className = 'explanation';
-	}
-}
+
 
 function zoomViewport( nextSize ){
 	var intialWidth = document.documentElement.clientWidth;
@@ -113,3 +106,12 @@ function zoomViewport( nextSize ){
 	}
 }
 */
+
+function showCaption(){
+	if ( document.querySelector('.explanation') !== null) {
+		document.querySelector('.explanation').className = 'has-explanation';
+	}
+	else {
+		document.querySelector('.has-explanation').className = 'explanation';
+	}
+}
