@@ -23,7 +23,7 @@ body::before {
 }
 @media (min-aspect-ratio: 1000/1681) {
     body::before {
-        content: "min-aspect-ratio: 1/1.681";
+        content: "min-aspect-ratio: 1000/1681";
     }
 }
 @media (min-aspect-ratio: 3/5) {
@@ -38,7 +38,7 @@ body::before {
 }
 @media (min-aspect-ratio: 1000/1414) {
     body::before {
-        content: "min-aspect-ratio: 1/1.414";
+        content: "min-aspect-ratio: 1000/1414";
     }
 }
 @media (min-aspect-ratio: 3/4) {
@@ -80,7 +80,7 @@ body::before {
 }
 @media (min-aspect-ratio: 1414/1000) {
     body::before {
-        content: "min-aspect-ratio: 1.414/1";
+        content: "min-aspect-ratio: 1414/1000";
     }
 }
 @media (min-aspect-ratio: 3/2) {
@@ -95,7 +95,7 @@ body::before {
 }
 @media (min-aspect-ratio: 1681/1000) {
     body::before {
-        content: "min-aspect-ratio: 1.681/1";
+        content: "min-aspect-ratio: 1681/1000";
     }
 }
 @media (min-aspect-ratio: 16/9) {
